@@ -24,13 +24,12 @@
 
 public class BinaryDump
 {
-	//Test commit
 	public static void main(String[] args)
 	{
 		int BITS_PER_LINE = 16;
 		if (args.length == 1)
 		{
-			BITS_PER_LINE = Integer.parseInt(args[0]);		
+			BITS_PER_LINE = Integer.parseInt(args[0]);
 		}
 		
 		int count;
